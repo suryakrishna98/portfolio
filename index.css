@@ -1,0 +1,49 @@
+#texts{
+    font-size: 30px;
+}
+
+#web{
+    color: green;
+}
+
+#nav1,#nav2,#nav3,#nav4, #head{
+    font-size: 19px;
+}
+body {
+    background-color: #fff;
+    /* Light mode background color */
+    color: #000;
+    /* Light mode text color */
+}
+
+.dark-mode {
+    background-color: #111;
+    /* Dark mode background color */
+    color: #fff;
+    /* Dark mode text color */
+}
+
+#head{
+    font-family: Tangerine;
+    font-size: 34px;
+    text-shadow: #000, 1;
+}
+/* Adjusting the flex items to take 50% width each */
+@media (min-width: 768px) {
+    .md:flex-row>* {
+        width: 50%;
+    }
+}
+
+ #loading {
+     display: none;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 9999;
+     background-color: rgba(255, 255, 255, 0.8);
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ }
